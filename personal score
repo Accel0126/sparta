@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Score</title>
+    <link rel="stylesheet"
+        href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <style>
+        .hero {
+            margin-bottom: 50px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 0.2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero bg-dark text-center py-5">
+        <h1 class="text-white">Personal Score</h1>
+        <h2 class="text-white">YOUR OWN SPECIAL SHEET MUSIC!</h2>
+    </div>
+    <div class="hero bg-bright text-center py-3">
+        <h3 class="text-muted">클릭하면 견본을 확인하실 수 있습니다.</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="단성.jpg" class="card-img-top" alt="단성">
+                    <div class="card-body">
+                        <h5 class="card-title">단성</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">4.0(장)</h6>
+                        <p class="card-text">이조</p>
+                        <a href="https://drive.google.com/file/d/1RFEu-yFWFMf03KVKspYEHTPnWESqpP4T/view?usp=share_link" class="card-link stretched-link" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="피아노.jpg" class="card-img-top" alt="피아노">
+                    <div class="card-body">
+                        <h5 class="card-title">피아노</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">6.0~8.0(장)</h6>
+                        <p class="card-text">6.0 단순한 반주형/7.0 하나 이상의 layer/8.0 까다로운 음형들, 장식음</p> 
+                        <a href="https://drive.google.com/file/d/1x9EQM8NsfuKOnzR-cvbjFuN-Gihegt6E/view?usp=sharing" class="card-link stretched-link" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="단성 피아노.png" class="card-img-top" alt="단성_피아노">
+                    <div class="card-body">
+                        <h5 class="card-title">단성과 피아노</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">7.0-9.0(장)</h6>
+                        <p class="card-text">7.0 단순한 반주형/8.0 다채로운 반주 혹은 하나 이상의 layer가 많을 때/9.0 낭만 작곡가/ 까다로운 음형들, 장식</p>
+                        <a href="https://drive.google.com/file/d/1fzQjljOW-5CoaL8aMhALUMEVoPhA-tNc/view?usp=share_link" class="card-link stretched-link" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="2성부피아노.png" class="card-img-top" alt="2성부_피아노">
+                    <div class="card-body">
+                        <h5 class="card-title">2성부와 피아노</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">8.0-10.0(장)</h6>
+                        <p class="card-text">8.0 단순한 반주형/9.0 다채로운 반주 혹은 하나 이상의 layer가 많을 때/10.0 낭만 작곡가/ 까다로운 음형들, 장식</p>
+                        <a href="https://drive.google.com/file/d/1vCnDX_XoT1bjBQdWYkivzmOm9UESgqVe/view?usp=share_link" class="card-link stretched-link" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="합주.jpg" class="card-img-top" alt="4성부_피아노">
+                    <div class="card-body">
+                        <h5 class="card-title">4성부와 피아노</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">10.0-12.0(장)</h6>
+                        <p class="card-text">10.0 단순한 반주형/11.0 다채로운 반주 혹은 하나 이상의 layer가 많을 때/12.0 낭만 작곡가/ 까다로운 음형들, 장식</p>
+                        <a href="https://drive.google.com/file/d/1gae0HnsNrEAlEDKL4-xh0XMtTvaHV0tc/view?usp=share_link" class="card-link stretched-link" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="8.png" class="card-img-top" alt="댕댕이">
+                    <div class="card-body">
+                        <h5 class="card-title">댕댕이</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">30만원</h6>
+                        <p class="card-text">댕댕이 판매합니다. 기간은 1년 정도이며, 상태는 깨끗합니다.</p>
+                        <a href="https://drive.google.com/file/d/1d2IQVRdMp0tGeq-81qcgoquAWYTFgCe6/view?usp=sharing" class="card-link stretched-link" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
